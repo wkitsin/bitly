@@ -1,0 +1,135 @@
+body{
+	background-image: url("/img/back.jpeg"); 
+	background-size: cover ; 
+}
+
+.top{
+	height: 60px;
+}
+
+#header-container{
+	top: 60;
+	left: 0;
+	right: 0;
+	height: 220px;
+}
+
+#header-container>.forms {
+	/*position: absolute; */
+	font-size: 150% ; 
+	text-align: center;
+	font-weight: bold ;
+	color: white; /*why*/
+}
+
+#header-container>.header{
+	top : 60;
+	text-align: center ;
+	/*height: 100%;   */    /* why no need */
+	width: 100%;
+	font-size: 150% ;
+	color: white ; 
+}
+
+#body-container {
+	left: 0;
+	right: 0;
+	top: 290px;
+	width: 100%;
+}
+
+
+.text1 {
+	font-size: 120% ; 
+	color: orange;
+}
+
+.text2 {
+	font-size: 100% ;
+	border-radius: 12px ;
+	color: black;
+	border : 5px solid orange ;
+	background-color: orange ;
+}
+
+.check {
+	text-align: center;
+	color: white ; 
+}
+
+table{
+	border-collapse: collapse;
+}
+
+td {
+	font-family: arial ; 
+	padding-top :.5em ;
+	padding-bottom: .5em ;
+	text-align: center;
+	border-collapse: collapse;
+	border: 2px solid black ;
+	background-color:  #D3D3D3;
+}
+
+tr:first-child{
+/*	background-color: red;*/
+/*	color: white;*/
+	border-collapse: collapse;
+	border: 2px solid black;
+	background-color: #D3D3D3;
+}
+
+.navbar{
+	overflow: hidden;
+	background-color: #333;
+	position: fixed;
+	top: 0 ;
+	left: 0;
+	width: 100% ;
+	height : 60px;
+}
+
+/*.navbar a{
+	position: absolute;
+}*/
+
+.navbar .nav_pic {
+	padding: 10px 15px 10px 15px;
+	max-height: 45px ; 
+	max-width: 150% ;
+	float: left ; 
+
+}
+
+.navbar .nav_home {
+	padding: 30px 15px 10px 15px;
+	float: left ;
+	bottom: 0 ;
+	max-height: 45px ; 
+	max-width: 150% ;
+	color: #f2f2f2 ;
+	font-size: 20px ;
+}
+
+.navbar .nav_about {
+	padding: 30px 15px 10px 15px;
+	float: left ;
+	bottom: 0 ;
+	max-height: 45px ; 
+	max-width: 150% ;
+	color: #f2f2f2 ;
+	font-size: 20px ;
+}
+
+.popup {
+	display: none ;
+	position: absolute;
+	margin: 100px auto 0 auto;
+	padding: 20px;
+	border: 1px solid black;
+	background: #eeeeee;
+}
+
+.notfirst td:hover {
+	background-color: #bdbdbd; 
+}

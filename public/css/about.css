@@ -1,0 +1,32 @@
+#description {
+	text-align: center ; 
+	color: white ; 
+	top : 0;
+	height : 350px;
+}
+
+.information {
+	font-size: 150% ; 
+	font-style: italic;
+}
+
+#hyped {
+	top : 350;
+}
+
+.supreme_pic, .palace_pic, .bape_pic,.thrasher_pic {
+	display: block;
+	margin-left: auto ; 
+	margin-right: auto ; 
+	padding: 20px 20px 20px 20px ; 
+	max-width: 250% ;
+	max-height : 100px ;
+
+}
+
+/*.palace_pic {
+	padding: 20px 20px 20px 20px ; 
+	max-width: 250% ;
+	max-height : 100px ;
+
+}*/
